@@ -10,9 +10,9 @@
 #define BT5 D5  
 
 
- char auth[] = "0_KHfMZdOdHoL_1amsv9cjZAdqyk58es";
- char ssid[] = "WONGMANEEWAW_2.4G";
- char pass[] = "0814956235";
+ char auth[] = "Blink_Auth";
+ char ssid[] = "Wifi_SSID";
+ char pass[] = "Wifi_PW";
  
 
 WidgetLCD lcd1(V0);
@@ -160,3 +160,4 @@ BLYNK_WRITE(V5){
     Blynk.virtualWrite(V5,0);
    }
  
+
